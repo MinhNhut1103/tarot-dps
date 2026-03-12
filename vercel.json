@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/cards",
+      "destination": "/api/cards.js"
+    },
+    {
+      "source": "/cards",
+      "destination": "/api/cards.js"
+    }
+  ]
+}

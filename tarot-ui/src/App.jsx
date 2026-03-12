@@ -99,7 +99,7 @@ function App() {
 
   const fetchCards = async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/cards`);
+      const response = await fetch(`${API_BASE_URL}/api/cards`);
       if (!response.ok) {
         throw new Error('Failed to fetch cards');
       }
