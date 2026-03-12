@@ -1,12 +1,11 @@
 {
   "version": 2,
+  "buildCommand": "npm install --prefix tarot-ui && npm run build --prefix tarot-ui",
+  "outputDirectory": "tarot-ui/dist",
+  "installCommand": "npm install --prefix tarot-ui",
   "rewrites": [
     {
       "source": "/api/cards",
-      "destination": "/api/cards.js"
-    },
-    {
-      "source": "/cards",
       "destination": "/api/cards.js"
     }
   ]
