@@ -1,0 +1,11 @@
+{
+  "name": "tarot-dps-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix tarot-ui",
+    "build": "npm run build --prefix tarot-ui",
+    "preview": "npm run preview --prefix tarot-ui",
+    "start": "npm start --prefix tarotcardapi"
+  }
+}
